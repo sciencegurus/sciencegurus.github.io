@@ -1,0 +1,63 @@
+body
+{
+ background-color:#BDBDBD;
+}
+#loginform
+{
+ width:300px;
+ height:220px;
+ margin-top:0px;
+// background-color:#585858;
+ background-color:#333333;
+ border-radius:3px;
+ box-shadow:0px 0px 10px 0px #424242;
+ padding:10px;
+ box-sizing:border-box;
+ font-family:helvetica;
+ visibility:hidden;
+ display:none;
+}
+#loginform #close_login
+{
+ position:absolute;
+ top:140px;
+ left:735px;
+ width:15px;
+ height:15px;
+}
+#loginform p
+{
+ margin-top:10px;
+ font-size:12px;
+ color:#E6E6E6;
+ text-align: left ;
+ margin-left:15px;
+}
+#loginform #login
+{
+ width:250px;
+ height:30px;
+ border:2px solid silver;
+ border-radius:3px;
+ padding:5px;
+}
+#loginform #password
+{
+ width:250px;
+ height:30px;
+ border:2px solid silver;
+ border-radius:3px;
+ padding:5px;
+}
+#loginform #dologin
+{
+ margin-left:-5px;
+ margin-top:20px;
+ width:250px;
+ height:30px;
+ border:none;
+ border-radius:3px;
+ color:#E6E6E6;
+ background-color:grey;
+ font-size:16px;
+}
